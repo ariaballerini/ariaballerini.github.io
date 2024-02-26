@@ -1,0 +1,12 @@
+.round-border{
+    border-radius: 8px;
+}
+
+.movie-card{
+    background-color: #9aa9ff5f;
+    max-width: 530px;
+    transition: transform .2s ease-out;
+    &:hover{
+        transform: scale(1.04);
+    }
+}
